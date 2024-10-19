@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #245075;
+}
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    border : 2px solid black;
+    padding: 10px 20px;
+    
+    
+}
+.search-bar{
+
+    background-color: rgb(51, 50, 50);
+    border-radius: 10px;
+    padding: 10px 25px ;
+    margin-top: 5px;
+    
+    
+}
+.nav-bar{
+    padding:  5px;
+    margin: 25px;
+    background-color: #487EAC;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    color: white;
+}
+
+.links{
+    background-color: #487EAC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+    margin: 5px;
+    
+
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.main{
+    width: 100%;
+}
+
+.row-upper{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 1% 7%;
+
+    
+}
+
+.row-lower{
+    display: flex;
+    
+
+}
+
+.quick-access-links{
+    flex: 1;
+    text-align: center;
+    color: yellow;
+    list-style: square;
+    list-style-position: inside;
+    size: 20px;
+    line-height: 1.5rem;
+}
+
+.quick-access-links a{
+    color: white;
+}
+
+.Python-Intro{
+    flex: 3;
+}
+
+.getting-started{
+    display: block;
+}
